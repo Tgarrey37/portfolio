@@ -1,27 +1,163 @@
-:root * {
+/* Used * and body to set universal settings for my html layout */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
+  background-color: lightgray;
 }
-
+/* Used the header to change all of header styling */
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  padding: 3%;
+  color: #fff;
+  width: 100%;
+
+  background-color: #5f6a6a;
+}
+/* Made a class for my paragraph to change the general settings and styling */
+.para1 {
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* Changing styling and color on my headers tags */
+h1 {
+  font-size: 200%;
+}
+h2 {
+  font-size: 200%;
+  color: #fff;
+}
+#aboutme {
+  color: black;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
-.logo {
+h2.work {
+  font-size: 400%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#work {
+  color: black;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+/* My first work project image title  */
+.h2-hr {
+  color: #fff;
+  font-size: 400%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 80px;
+  padding-top: 120px;
+}
+/* Added hover in my nav bar to show hover */
+nav ul {
+  justify-content: space-between;
+  min-width: 400px;
+  display: flex;
+}
+nav a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: #252626;
 }
 
-.navbar {
+div {
+  background-color: lightgrey;
+  border: 5px solid #03fcdb;
+  padding: 80px;
+  margin: 40px;
+  border-radius: 20px;
 }
-section {
+/* My main box for work */
+.box1 {
+  width: 800px;
+  height: 500px;
+  background-image: url(./images/Screen\ Shot\ 2021-12-04\ at\ 6.23.09\ PM.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 800px 500px;
+}
+/* Added blur hover with opacity so you can still see the image under it */
+.box1:hover {
+  opacity: 0.5;
+  filter: blur(0.5px);
+}
+/* Took away the underlines with text decoration */
+.link {
+  text-decoration: none;
+}
+/* used this class to adjust my smaller work boxes in the html document */
+.sub-work {
+  background-color: #5f6a6a;
+  border: 5px solid #03fcdb;
+  padding: 150px;
+  background-image: url(./images/Screen\ Shot\ 2021-12-04\ at\ 6.23.09\ PM.png);
+  background-size: 526.92px 342px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 40px;
 }
 
-.background-photo {
+.sub-work:hover {
+  opacity: 0.5;
+  filter: blur(0.5px);
 }
-.subtitle {
+
+.myphoto {
+  border: 5px solid #03fcdb;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 40px;
 }
-.about-me {
-}
-.work {
-}
+/* The class to adjust my footer styling */
 footer {
+  background-color: #5f6a6a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  padding: 3%;
+  color: #fff;
+  width: 100%;
+}
+.contact-me {
+  font-size: 200%;
+}
+.div-h1 {
+  padding: 20px;
+  background-color: #5f6a6a;
+  margin: -20px;
+  border-radius: 20px;
+}
+/* Added Media Queries to change the look when re sizing. FlexBox helped but did not put it the way i wanted. */
+@media screen and (max-width: 992px) {
+  .box1 {
+    width: 85%;
+  }
+  @media screen and (max-width: 992px) {
+    li {
+      width: 70%;
+    }
+  }
 }

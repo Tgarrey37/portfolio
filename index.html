@@ -6,42 +6,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
     <title>Portfolio</title>
 </head>
 
 <body>
+    <!-- Used header tag to make the site more semantic -->
     <header>
-        <h1 class="Logo">Taylor Garrey</h1>
-        <nav class="navbar">
-            Needs to go to spot on page through a tags
+        <div class="div-h1">
+            <h1>Taylor Garrey</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
         </nav>
-
-        <section class="background-photo">
-            <h2 class="subtitle">
-                Cool Subtitle here
-            </h2>
-        </section>
-
-
     </header>
 
+    <section>
+
+    </section>
 
     <main>
+        <!-- Used main tag to define the main content on my page -->
         <section class="about-me">
-            <h2>About Me</h2>
+            <h2 id="aboutme">About Me</h2>
             <p>
-                djiafjaifjisjaifjisdfijdsifjisdjfoisjd
+                <img class="myphoto" src="./assets/images/IMG_0303.jpg" width="400" height="400"
+                    alt=" A photo of me and my dog">
+            </p>
+            <p class="para1">
+                My name is Taylor Garrey and I am creating a portfolio for my programming projects.<br> I am currently
+                in
+                school at UofA's Coding Bootcamp.
             </p>
         </section>
-        <section class="work">
-            <h2>Work</h2>
-            hrefs images anchor tags
+        <section>
+            <h2 id="work">Work</h2>
+            <a class="link" href="https://tgarrey37.github.io/horiseon-refactor/ " target="_blank">
+                <div class="box1">
+                    <h2 class="h2-hr">
+                        Code Refactor
+                    </h2>
+                </div>
+            </a>
+            <div class="sub-work">
+                <h2>Future Project</h2>
+            </div>
+            <div class="sub-work">
+                <h2>Future Project</h2>
+
+            </div>
+            <div class="sub-work">
+                <h2>Future Project</h2>
+            </div>
+            <div class="sub-work">
+                <h2>Future Project</h2>
+            </div>
         </section>
     </main>
+    <!-- Added a footer to contain my contact information -->
     <footer>
-        <h2>Contact Me</h2>
-        anchor tags for links to email and information/ github
+        <h2 id="contact" class="contact-me">Contact Me</h2>
+        <nav>
+            <ul>
+                <li><a href="#480-322-2698">480-322-2698</a></li>
+                <li><a href="mailto:tpopp0303@gmail.com">Email</a></li>
+                <li><a href="https://github.com/Tgarrey37" target="_blank">Github</a></li>
+
+            </ul>
+        </nav>
+
+
     </footer>
 </body>
 
