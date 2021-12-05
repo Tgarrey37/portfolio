@@ -23,6 +23,15 @@ CSS
 
 ![Screen Shot 2021-12-05 at 11 27 30 AM](https://user-images.githubusercontent.com/89158559/144758853-2a0177f3-f9ea-440e-b11c-cf88e6cf4d11.png)
 
+Nav/About Me
+<img width="1440" alt="Screen Shot 2021-12-05 at 11 41 20 AM" src="https://user-images.githubusercontent.com/89158559/144759278-73e0a5a8-4e85-46bd-a93b-9e2a360f379f.png">
+
+Work section
+<img width="1440" alt="Screen Shot 2021-12-05 at 11 41 37 AM" src="https://user-images.githubusercontent.com/89158559/144759290-3a1ee4c6-3a9f-4083-8063-c02ed8464d11.png">
+
+Footer/Contact Me
+<img width="1440" alt="Screen Shot 2021-12-05 at 11 41 42 AM" src="https://user-images.githubusercontent.com/89158559/144759319-5cbfbb94-a15d-4465-b5f9-163326edef65.png">
+
 ### Deployed Application/ GIthub link
 
 [Deployed Portfolio](https://tgarrey37.github.io/portfolio/)
