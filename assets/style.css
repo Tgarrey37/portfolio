@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
 body {
@@ -13,6 +15,7 @@ body {
 /* Used the header to change all of header styling */
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -36,7 +39,6 @@ h1 {
 }
 h2 {
   font-size: 200%;
-  color: #fff;
 }
 #aboutme {
   color: black;
@@ -57,7 +59,7 @@ h2.work {
 }
 /* My first work project image title  */
 .h2-hr {
-  color: #fff;
+  color: black;
   font-size: 400%;
   display: flex;
   flex-wrap: wrap;
@@ -90,7 +92,7 @@ div {
 .box1 {
   width: 800px;
   height: 500px;
-  background-image: url(./images/Screen\ Shot\ 2021-12-04\ at\ 6.23.09\ PM.png);
+  background-image: url(./images/Screen\ Shot\ 2021-12-21\ at\ 8.28.04\ PM.png);
   background-repeat: no-repeat;
   cursor: pointer;
   background-size: 800px 500px;
@@ -102,6 +104,9 @@ div {
 }
 /* Took away the underlines with text decoration */
 .link {
+  text-decoration: none;
+}
+.hslink {
   text-decoration: none;
 }
 /* used this class to adjust my smaller work boxes in the html document */
@@ -117,7 +122,19 @@ div {
   margin-right: 20px;
   margin-left: 40px;
 }
-
+.pwimg {
+  background-image: url(./images/Screen\ Shot\ 2021-12-21\ at\ 8.41.21\ PM.png);
+}
+.cqimg {
+  background-image: url(./images/Screen\ Shot\ 2021-12-21\ at\ 8.39.34\ PM.png);
+}
+.wsimg {
+  background-image: url(./images/Screen\ Shot\ 2021-12-21\ at\ 8.38.21\ PM.png);
+}
+.crimg {
+  background-image: url(./images/Screen\ Shot\ 2021-12-21\ at\ 8.54.31\ PM.png);
+  color: #fff;
+}
 .sub-work:hover {
   opacity: 0.5;
   filter: blur(0.5px);
@@ -150,6 +167,7 @@ footer {
   margin: -20px;
   border-radius: 20px;
 }
+
 /* Added Media Queries to change the look when re sizing. FlexBox helped but did not put it the way i wanted. */
 @media screen and (max-width: 992px) {
   .box1 {
