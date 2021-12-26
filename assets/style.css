@@ -12,6 +12,7 @@
 body {
   background-color: lightgray;
 }
+
 /* Used the header to change all of header styling */
 header {
   display: flex;
@@ -23,6 +24,7 @@ header {
   padding: 3%;
   color: #fff;
   width: 100%;
+  
 
   background-color: #5f6a6a;
 }
@@ -53,13 +55,12 @@ h2.work {
   flex-wrap: wrap;
 }
 #work {
-  color: black;
-  margin-left: 50px;
-  margin-top: 50px;
+  color: black; 
+ 
 }
 /* My first work project image title  */
 .h2-hr {
-  color: black;
+  /* color: black; */
   font-size: 400%;
   display: flex;
   flex-wrap: wrap;
@@ -81,13 +82,13 @@ a:hover {
   color: #252626;
 }
 
-div {
-  background-color: lightgrey;
-  border: 5px solid #03fcdb;
-  padding: 80px;
+/* div {
+  /* background-color: lightgrey; */
+  /* border: 5px solid #03fcdb; */
+  /* padding: 80px;
   margin: 40px;
-  border-radius: 20px;
-}
+  border-radius: 20px; */
+
 /* My main box for work */
 .box1 {
   width: 800px;
@@ -96,6 +97,8 @@ div {
   background-repeat: no-repeat;
   cursor: pointer;
   background-size: 800px 500px;
+  border: 5px solid #03fcdb;
+  border-radius: 20px; 
 }
 /* Added blur hover with opacity so you can still see the image under it */
 .box1:hover {
@@ -103,23 +106,25 @@ div {
   filter: blur(0.5px);
 }
 /* Took away the underlines with text decoration */
-.link {
+/* .link .pwlink {
   text-decoration: none;
 }
 .hslink {
   text-decoration: none;
-}
+} */
 /* used this class to adjust my smaller work boxes in the html document */
 .sub-work {
   background-color: #5f6a6a;
   border: 5px solid #03fcdb;
   padding: 150px;
-  background-image: url(./images/Screen\ Shot\ 2021-12-04\ at\ 6.23.09\ PM.png);
+  /* background-image: url(./images/Screen\ Shot\ 2021-12-04\ at\ 6.23.09\ PM.png); */
   background-size: 526.92px 342px;
   display: inline-block;
   border-radius: 20px;
   cursor: pointer;
   margin-right: 20px;
+  justify-content: space-between;
+ 
   margin-left: 40px;
 }
 .pwimg {
@@ -161,15 +166,19 @@ footer {
 .contact-me {
   font-size: 200%;
 }
-.div-h1 {
-  padding: 20px;
+/* .div-h1 {
+  /* padding: 20px;
   background-color: #5f6a6a;
   margin: -20px;
-  border-radius: 20px;
-}
+  border-radius: 20px; */
+
 
 /* Added Media Queries to change the look when re sizing. FlexBox helped but did not put it the way i wanted. */
-@media screen and (max-width: 992px) {
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+/* @media screen and (max-width: 992px) {
   .box1 {
     width: 85%;
   }
@@ -178,4 +187,4 @@ footer {
       width: 70%;
     }
   }
-}
+} */
